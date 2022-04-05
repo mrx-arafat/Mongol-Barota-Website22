@@ -1,147 +1,199 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
 
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Mars Rover Society | MIST" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="/img/meta_image.jpg" />
+    <meta property="og:url" content="https://rover.mist.ac.bd" />
 
-  <meta property="og:title" content="Mars Rover Society | MIST">
-  <meta property="og:description" content="">
-  <meta property="og:image" content="/img/meta_image.jpg">
-  <meta property="og:url" content="https://rover.mist.ac.bd">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Mars Rover Society | MIST</title>
 
-  <title>Mars Rover Society | MIST</title>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
+      nonce="cEHRFaZ3"
+    ></script>
+  </head>
 
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0"
-    nonce="cEHRFaZ3"></script>
-</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">
+        <img src="/img/logo.png" style="max-height: 70px" alt="MRS MIST" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="/">
-      <img src="/img/logo.png" style="max-height: 70px;" alt="MRS MIST">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/team.html">Team</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/gallery.html">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/sponsors.html">Sponsors</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="/contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container text-center" style="margin-top: 70px;">
-    <div class="row justify-content-center">
-      <div class="col-12">
-        <h2>Contact us at:</h2>
-        <p style="font-size: 1.3em;">mars.rover.mist@gmail.com</p>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/sponsors.html">Sponsors</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
-    </div>
-    <div class="row my-5">
-      <div class="col-12">
-        <h2>Location:</h2>
-      </div>
-      <div class="col-12">
-        <iframe class="map-frame"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1824.7303442972755!2d90.35774956142113!3d23.83776951110818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1410136a4dd%3A0x7a2bb9d68ea2166e!2sMilitary%20Institute%20of%20Science%20and%20Technology%20(MIST)!5e0!3m2!1sen!2sbd!4v1623384792981!5m2!1sen!2sbd"
-          width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </div>
-    </div>
+    </nav>
 
-    <div class="row my-5">
-      <div class="col-12">
-        <div>
-          <H3>Follow Our Facebook Page</H3>
-        </div>
-        <div class="fb-page" data-href="https://www.facebook.com/mongolbarota.mist/" data-tabs="" data-width="500"
-          data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
-          data-show-facepile="true">
-          <blockquote cite="https://www.facebook.com/mongolbarota.mist/" class="fb-xfbml-parse-ignore"><a
-              href="https://www.facebook.com/mongolbarota.mist/">Mongol Barota - MIST Mars Rover Society</a>
-          </blockquote>
+    <div class="container text-center" style="margin-top: 70px">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h2>Contact us at:</h2>
+          <p style="font-size: 1.3em">mars.rover.mist@gmail.com</p>
         </div>
       </div>
+      <div class="row my-5">
+        <div class="col-12">
+          <h2>Location:</h2>
+        </div>
+        <div class="col-12">
+          <iframe
+            class="map-frame"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1824.7303442972755!2d90.35774956142113!3d23.83776951110818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1410136a4dd%3A0x7a2bb9d68ea2166e!2sMilitary%20Institute%20of%20Science%20and%20Technology%20(MIST)!5e0!3m2!1sen!2sbd!4v1623384792981!5m2!1sen!2sbd"
+            width="700"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="row my-5">
+        <div class="col-12">
+          <div>
+            <h3>Follow Our Facebook Page</h3>
+          </div>
+          <div
+            class="fb-page"
+            data-href="https://www.facebook.com/mongolbarota.mist/"
+            data-tabs=""
+            data-width="500"
+            data-height="70"
+            data-small-header="false"
+            data-adapt-container-width="true"
+            data-hide-cover="false"
+            data-show-facepile="true"
+          >
+            <blockquote
+              cite="https://www.facebook.com/mongolbarota.mist/"
+              class="fb-xfbml-parse-ignore"
+            >
+              <a href="https://www.facebook.com/mongolbarota.mist/"
+                >Mongol Barota - MIST Mars Rover Society</a
+              >
+            </blockquote>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <style>
-    .map-frame {
-      border: 2px solid #111 !important;
-    }
-
-    @media only screen and (max-width: 991px) {
-
-      .map-frame,
-      .fb-page iframe {
-        width: 100% !important;
+    <style>
+      .map-frame {
+        border: 2px solid #111 !important;
       }
-    }
-  </style>
 
-  <footer class="p-4" style="background-color: #26272b;color:#fff;">
-    <div>
-      <div class="text-center">
-        <b>Mars Rover Society | MIST</b>
+      @media only screen and (max-width: 991px) {
+        .map-frame,
+        .fb-page iframe {
+          width: 100% !important;
+        }
+      }
+    </style>
+
+    <footer class="p-4" style="background-color: #26272b; color: #fff">
+      <div>
+        <div class="text-center">
+          <b>Mars Rover Society | MIST</b>
+        </div>
+        <div class="text-center mt-3">
+          <a
+            href="https://www.facebook.com/mongolbarota.mist/"
+            class="mx-1"
+            target="_blank"
+          >
+            <img class="icon" src="/img/facebook.svg" alt="FB" />
+          </a>
+
+          <a
+            href="https://www.youtube.com/channel/UCzJnA97ftcSh6jpSkbWAOzQ"
+            class="mx-1"
+            target="_blank"
+          >
+            <img class="icon" src="/img/youtube.svg" alt="Youtube" />
+          </a>
+        </div>
       </div>
-      <div class="text-center mt-3">
-        <a href="https://www.facebook.com/mongolbarota.mist/" class="mx-1" target="_blank">
-          <img class="icon" src="/img/facebook.svg" alt="FB">
-        </a>
+    </footer>
 
-        <a href="https://www.youtube.com/channel/UCzJnA97ftcSh6jpSkbWAOzQ" class="mx-1" target="_blank">
-          <img class="icon" src="/img/youtube.svg" alt="Youtube">
-        </a>
-      </div>
-    </div>
-  </footer>
+    <style>
+      .icon {
+        height: 45px;
+        cursor: pointer;
+      }
+    </style>
 
-  <style>
-    .icon {
-      height: 45px;
-      cursor: pointer;
-    }
-  </style>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-  </script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
